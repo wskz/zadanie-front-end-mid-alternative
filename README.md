@@ -90,7 +90,7 @@ Celem ułatwienia pracy nad zadaniem zalecana jest instalacja dodatku do VSC (Vi
 
 ## Przesłanie zadania do oceny
 
-Zadanie musi zostać umieszczone jako projekt na prywatnym repozytorium Kandydata, z opcją odczytu dla: `grzegorz.topolewski@wskz.pl`, `anna.antaswskz@gmail.com`, `pawel.usinowicz@wskz.pl`
+Zadanie musi zostać umieszczone jako projekt na prywatnym repozytorium Kandydata, z opcją odczytu dla: `grzegorz.topolewski@wskz.pl`, `anna.antas@wskz.pl`, `pawel.usinowicz@wskz.pl`
 
 Poinformuj proszę  email `anna.antaswskz@gmail.com` w momencie zakończenia zadania
 
