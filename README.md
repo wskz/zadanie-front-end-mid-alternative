@@ -76,8 +76,8 @@ Celem ułatwienia pracy nad zadaniem zalecana jest instalacja dodatku do VSC (Vi
   - elementy interaktywne (wymagane jest napisanie JS tylko dla poniższych punktów) możesz stworzyć dostosowując komponentu UI frameworka CSS, pure JavaScript lub TypeScript. Użycie innych narzędzi i frameworków JS jest niedozwolone (np. jQuery):
     - slider
     - menu dektopowe
-    - menu mobilne<br/>
-  Pisząc kod JavaScript lub TypeScript postaraj się napisać go w OOP lub w postaci pluginu (który może zostać przeniesiony na każdą dowolną stronę)
+    - menu mobilne
+  - Pisząc kod JavaScript lub TypeScript postaraj się napisać go w OOP lub w postaci pluginu (który może zostać przeniesiony na każdą dowolną stronę)
 - upewnij się, że strona jest w pełni responsywna
 - na stronie istnieją błędy (patrz poniższe punkty). Postaraj się naprawić jak najwięcej z nich. Każdy znaleziony i poprawiony błąd musi zostać opisany w pliku #src/errors-table/errors.html
   - responsywności
