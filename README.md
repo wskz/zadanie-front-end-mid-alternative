@@ -6,7 +6,7 @@ Projekt używa Node oraz modułów npm.
 
 ## Fork repozytorium
 
-Link do repozytorium: https://github.com/wskz/zadanie-front-end-mid/
+Link do repozytorium: https://github.com/wskz/zadanie-front-end-mid-alternative
 
 Repozytorium posiada uprawnienia odczytu. W celu ukończenia zadania wymagany jest fork do prywatnego repozytorium.
 
