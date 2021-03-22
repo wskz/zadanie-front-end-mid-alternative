@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista błędów z sugerowanymi poprawkami</title>
+    <link rel="stylesheet" href="errors-table.css">
+</head>
+<body>
+    <div class="dcf-overflow-x-auto" tabindex="0">
+        <table class="dcf-table dcf-table-bordered dcf-table-striped dcf-w-100%">
+            <caption>Wykaz błędów</caption>
+            <thead>
+                <tr>
+                    <th data-label="id błędu" scope="col">Id błędu</th>
+                    <th data-label="Typ błędu (HTML, JS, CSS)" scope="col">Typ błędu</th>
+                    <th data-label="wyjaśnienie błędu" scope="col">Opis błędu</th>
+                    <th data-label="kod błędu (HTML, JS, CSS)" scope="col">Kod błędu (HTML, JS, CSS)</th>
+                    <th data-label="poprawiony kod (HTML, JS, CSS)" scope="col">Poprawiony kod (HTML, JS, CSS)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th data-label="id błędu" scope="row">1</th>
+                    <td data-label="Typ błędu (HTML, JS, CSS)">Markup</td>
+                    <td data-label="wyjaśnienie błędu">Dostęp do custom'owego fonta został zablokowany przez CORS policy. Ponieważ nie posiadamy dostępu do serwera propozycją jest podmiana fonta na alternatywny. W celu prawidłowego wyboru fonta alternatywnego użyłem aplikacji https://www.whatfontis.com/. Wybór padł na font: https://www.whatfontis.com/FF_FlamanteRoundMedium.font?text=informat. Ponieważ font został pobrany w formacie TrueType, w następnym kroku przekonwertowałem go na webfont (.woff, .woff-2) za pomocą narzędzia https://www.fontsquirrel.com/tools/webfont-generator.</td>
+                    <td data-label="kod błędu (HTML, JS, CSS)">Access to font at 'https://www.did.ie/skin/frontend/did/reskin/fonts/nolan/30EF5A_B_0.woff2' from origin 'http://127.0.0.1:5500' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.</td>
+                    <td data-label="poprawiony kod (HTML, JS, CSS)">1.) Utworzyłem odpowiedni plik scss dla typografii (#src/scss/base/typography.scss).
+                        <br/>2.) Dodałem dyrektywę font-face dla nowego fonta: <br/><br/>
+                            @font-face {
+                                font-family: 'nunitobold';
+                                src: url('nunito-bold-webfont.woff2') format('woff2'),
+                                    url('nunito-bold-webfont.woff') format('woff');
+                                font-weight: normal;
+                                font-style: normal;}
+                    </td>
+                </tr>
+                <tr>
+                    <th data-label="id błędu" scope="row">2</th>
+                    <td data-label="Typ błędu (HTML, JS, CSS)"></td>
+                    <td data-label="wyjaśnienie błędu"></td>
+                    <td data-label="kod błędu (HTML, JS, CSS)"></td>
+                    <td data-label="poprawiony kod (HTML, JS, CSS)"></td>
+                </tr>
+                <tr>
+                    <th data-label="id błędu" scope="row">3</th>
+                    <td data-label="Typ błędu (HTML, JS, CSS)"></td>
+                    <td data-label="wyjaśnienie błędu"></td>
+                    <td data-label="kod błędu (HTML, JS, CSS)"></td>
+                    <td data-label="poprawiony kod (HTML, JS, CSS)"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</body>
+</html>
