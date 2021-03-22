@@ -10,7 +10,7 @@ Link do repozytorium: https://github.com/wskz/zadanie-front-end-mid-alternative
 
 Repozytorium posiada uprawnienia odczytu. W celu ukończenia zadania wymagany jest fork do prywatnego repozytorium.
 
-Po skończeniu zadania proszę nadać uprawnienia odczytu dla `grzegorz.topolewski@wskz.pl`, `anna.antaswskz@gmail.com`, `pawel.usinowicz@wskz.pl`
+Po skończeniu zadania proszę nadać uprawnienia odczytu dla `grzegorz.topolewski@wskz.pl`, `anna.antas@wskz.pl`, `pawel.usinowicz@wskz.pl`
 
 ## Jak rozpocząć
 
