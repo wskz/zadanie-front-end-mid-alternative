@@ -1,0 +1,26 @@
+{
+  "name": "zadanie-front-end-mid-alternative",
+  "version": "1.0.0",
+  "description": "Zadanie rekrutacyjne mid front-end alternatywne",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wskz/zadanie-front-end-mid-alternative.git"
+  },
+  "author": "WSKZ",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wskz/zadanie-front-end-mid-alternative/issues"
+  },
+  "homepage": "https://github.com/wskz/zadanie-front-end-mid-alternative#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.1.0",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "node-sass": "^5.0.0",
+    "typescript": "^4.2.3"
+  }
+}
